@@ -1,12 +1,12 @@
 # iOS-Structure-MVVP-Unit-Testcase
 
-Why test cases? 
+## Why test cases? 
 
 Each of the features implemented in your app should be tested whenever you make even the small change in your code or before releasing any build and one of the best ways to test that with automation is the test case.  
 
 Since we are using MVVM, We will have our business logic written in a separate file so we can test the business logic easily and with the help of Apple's TestCase SDK, we can write our test cases in Xcode itself. 
 
-How to write test cases?
+## How to write test cases?
 
 We can write a test case for every function of the ViewModel file of the controller to ensure everything is working as expected.
 
@@ -29,11 +29,11 @@ This method will be called after the execution of the test case finishes.
 We can use the above methods to initialize and release variables that are used during the test case execution.
 
 
-Code Coverage:
+## Code Coverage:
 With the use of test cases, we can also validate whether each and every line we have written is useful or not.
 
 
-MVVM Example
+## MVVM Example
 
 This project contains a very basic example of the login screen and test cases related to it.
 
